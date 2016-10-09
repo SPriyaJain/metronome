@@ -1,0 +1,26 @@
+#all {
+	background-color: #e3f8ff;
+	height: 200px;
+	width: 400px;
+}
+
+#start {
+	background-color: #ffffff;
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	left: 25px;
+	top: 25px;
+}
+
+#ts {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+}
+
+#bpm {
+	position: absolute;
+	left: 200px;
+	top: 75px;
+}
