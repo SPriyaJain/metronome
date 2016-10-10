@@ -1,16 +1,28 @@
 #all {
-	background-color: #e3f8ff;
+	background-color: #81cfe0;
 	height: 200px;
 	width: 400px;
 }
 
 #start {
-	background-color: #ffffff;
+	background-color: #f27935;
+	color: #ffffff;
 	height: 150px;
 	width: 150px;
 	position: absolute;
 	left: 25px;
 	top: 25px;
+	font: 50px gill sans;
+}
+
+p {
+	position: relative;
+	text-align: center;
+}
+
+#start:hover {
+	background-color: #ffffff;
+	color: #f27935;
 }
 
 #ts {
