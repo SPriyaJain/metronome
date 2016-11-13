@@ -13,6 +13,8 @@
 	left: 25px;
 	top: 25px;
 	font: 50px gill sans;
+	border: 3px solid white;
+	border-radius: 5px;
 }
 
 p {
@@ -23,6 +25,7 @@ p {
 #start:hover {
 	background-color: #ffffff;
 	color: #f27935;
+	border: 3px solid #f27935;
 }
 
 #ts {
@@ -30,9 +33,14 @@ p {
 	left: 200px;
 	top: 50px;
 }
+#bars {
+	position: absolute;
+	left: 200px;
+	top: 75px;
+}
 
 #bpm {
 	position: absolute;
 	left: 200px;
-	top: 75px;
+	top: 100px;
 }
