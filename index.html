@@ -7,10 +7,12 @@
 		<link rel="stylesheet" type="text/css" href="metronome.css">
 	</head>
 	<body>
-		<div id="all"></div>
 		<button id="start">Start</button>
-		<input type="text" placeholder="Time Signature" id="ts"/>
-		<input type="text" placeholder="Bars Before" id="bars"/>
-		<input type="text" placeholder="Beats Per Minute" id="bpm"/>
+		<div class="settings">
+			<input type="text" placeholder="Beats Per Measure" class="ts"/>
+			<input type="text" placeholder="Lead-in Bars" class="bars"/>
+			<input type="text" placeholder="Beats Per Minute" class="bpm"/>
+		</div>
+		<button class="add">Add Section</button>
 	</body>
 </html>

@@ -1,46 +1,60 @@
-#all {
-	background-color: #81cfe0;
-	height: 200px;
-	width: 400px;
+body {
+	width: 800px;
+	position: relative;
+	margin: 0 auto;
 }
 
-#start {
+.settings {
+	position: relative;
+	top: 50px;
+}
+
+button {
 	background-color: #f27935;
 	color: #ffffff;
-	height: 150px;
-	width: 150px;
-	position: absolute;
-	left: 25px;
-	top: 25px;
-	font: 50px gill sans;
-	border: 3px solid white;
+	border: 3px solid #f27935;
 	border-radius: 5px;
 }
 
-p {
-	position: relative;
-	text-align: center;
-}
-
-#start:hover {
+button:hover {
 	background-color: #ffffff;
 	color: #f27935;
 	border: 3px solid #f27935;
 }
 
-#ts {
-	position: absolute;
-	left: 200px;
+#start {
+	height: 300px;
+	width: 300px;
+	left: 50px;
 	top: 50px;
-}
-#bars {
+	font: 100px gill sans;
+	border-radius: 5px;
 	position: absolute;
-	left: 200px;
-	top: 75px;
 }
 
-#bpm {
+.ts {
+	left: 400px;
+	font: 30px gill sans;
 	position: absolute;
-	left: 200px;
+}
+.bars {
+	top: 50px;
+	left: 400px;
+	font: 30px gill sans;
+	position: absolute;
+}
+
+.bpm {
 	top: 100px;
+	left: 400px;
+	font: 30px gill sans;
+	position: absolute;
+}
+
+.add {
+	position: absolute;
+	width: 325px;
+	left: 400px;
+	top: 200px;
+	font: 30px gill sans;
 }
